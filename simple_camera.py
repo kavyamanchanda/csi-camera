@@ -7,11 +7,11 @@ from datetime import datetime
 
 def gstreamer_pipeline(
     sensor_id=0,
-    capture_width=3280,
-    capture_height=2464,
-    display_width=3280,
-    display_height=2464,
-    framerate=21,
+    capture_width=1280,
+    capture_height=720,
+    display_width=1280,
+    display_height=720,
+    framerate=60,
     flip_method=2,
 ):
     return (
